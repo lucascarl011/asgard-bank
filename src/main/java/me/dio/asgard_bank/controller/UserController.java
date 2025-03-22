@@ -32,6 +32,8 @@ public class UserController {
                 .buildAndExpand(userCreated.getId())
                 .toUri();
         return ResponseEntity.created(location).body(userCreated);
+
+
     }
 
 }
