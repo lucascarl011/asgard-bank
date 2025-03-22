@@ -1,6 +1,5 @@
 package me.dio.asgard_bank.controller;
 
-import jakarta.servlet.Servlet;
 import me.dio.asgard_bank.domain.model.User;
 import me.dio.asgard_bank.service.UserService;
 import org.springframework.http.ResponseEntity;
